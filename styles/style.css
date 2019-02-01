@@ -132,4 +132,108 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+html {
+  font-size: 125%;
+  background: #111010; }
+
+img {
+  max-width: 100%;
+  display: block; }
+
+.wrapper {
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto; }
+
+p {
+  font-size: 1.95rem;
+  line-height: 1.5rem;
+  letter-spacing: 1.9px;
+  color: #ffffff;
+  font-family: 'Chathura', sans-serif; }
+
+nav {
+  margin: 0 auto;
+  width: 650px; }
+  nav ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 30px 0 0; }
+    nav ul li {
+      font-family: 'Tulpen One', cursive;
+      color: #ffffff;
+      font-size: 3rem;
+      letter-spacing: 1.9px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    nav ul li a {
+      font-family: 'Chathura', sans-serif;
+      font-size: 1.9rem;
+      line-height: 1.45rem;
+      letter-spacing: 1.9px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #ffffff; }
+
+header {
+  background: url(../assets/homeImage.jpg) center no-repeat;
+  background-size: cover;
+  height: 50vh;
+  position: relative; }
+  header .headerBox {
+    max-width: 50%;
+    position: absolute;
+    right: 0;
+    top: 300px; }
+  header h1 {
+    color: #ff8327;
+    font-family: 'Tulpen One', cursive;
+    font-size: 13rem;
+    text-align: center;
+    letter-spacing: 2.4px;
+    z-index: 9;
+    position: absolute; }
+
+.firstSection {
+  padding-top: 250px; }
+  .firstSection .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .firstSection .wrapper .content {
+      width: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .firstSection .wrapper h3 {
+      font-size: 3.4rem;
+      line-height: 2.9rem;
+      letter-spacing: 2.2px;
+      color: #ffffff;
+      font-family: 'Chathura', sans-serif;
+      font-weight: 700;
+      margin-bottom: 0; }
+    .firstSection .wrapper p {
+      margin-top: 15px; }
+    .firstSection .wrapper i {
+      color: #ffffff;
+      font-size: 1.8rem;
+      background: #bf2603;
+      border: 15px solid #bf2603;
+      -ms-flex-item-align: start;
+      align-self: flex-start; }
+
 /*# sourceMappingURL=style.css.map */

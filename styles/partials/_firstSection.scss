@@ -1,0 +1,30 @@
+.firstSection {
+    padding-top: 250px;
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    .content {
+        width: 50%;
+        display: flex;
+        // flex-wrap: wrap;
+    }
+    .text {
+    }
+    h3 {
+        @include hFontSize(3.4rem, 2.9rem, 2.2px, #ffffff);
+        margin-bottom: 0;
+    }
+    p {
+       margin-top: 15px; 
+    }
+    i {
+        color: #ffffff;
+        font-size: 1.8rem;
+        background: #bf2603;
+        // border-radius: 50%;
+        border: 15px solid #bf2603;
+        align-self: flex-start;
+    }
+    }
+}
+
