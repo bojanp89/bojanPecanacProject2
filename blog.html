@@ -11,7 +11,7 @@
     <title>Blog | Bar-One</title>
 </head>
 <body>
-    <header>
+    <header class="blog">
         <nav>
             <ul class="topNav">
                 <li><a href="#home">Home</a></li>
@@ -28,7 +28,7 @@
         <div class="postImg">
             <img src="assets//postImage.jpg" alt="various appetizers on plates at the bar">
         </div>
-        <div class="blogPost">
+        <div class="blogText">
             <h3>New menu!</h3>
             <p>Monday January 30, 2019 by Saron</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corrupti accusamus sed non. Ipsa molestiae, deleniti, inventore qui ex, nostrum veritatis aliquid nulla corrupti enim sapiente eius sunt amet dicta?
@@ -41,55 +41,62 @@
         </div>
     </div>
     <aside>
-        <div class="mission">
-            <h3>Our mission</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias vel fugiat temporibus!</p>
-            <a href="#">Find out more.</a>
-        </div>
-        <div class="recentPosts">
-            <ul>
-                <li>Lorem ipsum dolor sit.</li>
-                <li>Distinctio repellat harum voluptates.</li>
-                <li>Eveniet, hic earum. Aspernatur?</li>
-                <li>Quas distinctio nihil unde.</li>
-            </ul>
-        </div>
+            <div class="sidebarImg">
+                <img src="assets/sidebarImage.jpg" alt="close up of a hand pouring beer from a tap to a glass">
+            </div>
+            <div class="sidebarText">
+                <h3>Our mission</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias vel fugiat temporibus!</p>
+                <a href="#">Find out more.</a>
+                <h3>Recent Posts</h3>
+                <ul>
+                    <li><span>Lorem ipsum dolor sit</span></li>
+                    <li><span>Distinctio repellat harum</span></li>
+                    <li><span>Eveniet, hic earum. Aspernatur</span></li>
+                    <li><span>Quas distinctio nihil unde</span></li>
+                </ul>
+            </div>
     </aside>
-    <section class="comments">
-        <div class="wrapper">
-            <h3>Comments:</h3>
-            <div class="singleComment">
-                <div class="commentImg">
-                    <img src="assets/commentImage1.jpg" alt="portrait of a girl with plants in the background">
-                </div>
-                <div class="commentText">
-                    <h4>Tuesday October 9th, 2019 by Sulaire</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iste veniam repellat et dolores necessitatibus fuga modi accusantium voluptatum sint veritatis quam id amet, similique sequi ut harum, illum, rerum ullam reprehenderit earum doloribus beatae ipsam consequuntur? Officiis, numquam necessitatibus?</p>
-                </div>
-            </div>
-            <div class="singleComment">
-                <div class="commentImg">
-                    <img src="assets/commentImage2.jpg" alt="close up of a bearded man running his hand through his hair">
-                </div>
-                <div class="commentText">
-                    <h4>Wednesday October 10th, 2019 by Renzo</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, id dolorum magni voluptates, nesciunt minima itaque amet tempora commodi quidem dolorem voluptatem iusto illum, reiciendis non corporis velit consequatur autem.</p>
-                </div>
-            </div>
-            <form action="submit">
-                <label for="name">Name</label>
-                <input type="text" id="name">
-
-                <label for="email">Email address</label>
-                <input type="email" id="email">
-
-                <textarea name="Comment" placeholder="Comment" cols="30" rows="10"></textarea>
-
-                <input type="submit" value="Post Comment" id="submitComment">
-            </form>
-        </div>
-    </section>
 </main>
+<section class="comments">
+    <div class="wrapper">
+        <h3>Comments:</h3>
+        <div class="singleComment">
+            <div class="commentImg">
+                <img src="assets/commentImage1.jpg" alt="portrait of a girl with plants in the background">
+            </div>
+            <div class="commentText">
+                <h4>Tuesday October 9th, 2019 by Sulaire</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iste veniam repellat et dolores
+                    necessitatibus fuga modi accusantium voluptatum sint veritatis quam id amet, similique sequi ut
+                    harum, illum, rerum ullam reprehenderit earum doloribus beatae ipsam consequuntur? Officiis,
+                    numquam necessitatibus?</p>
+            </div>
+        </div>
+        <div class="singleComment">
+            <div class="commentImg">
+                <img src="assets/commentImage2.jpg" alt="close up of a bearded man running his hand through his hair">
+            </div>
+            <div class="commentText">
+                <h4>Wednesday October 10th, 2019 by Renzo</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, id dolorum magni voluptates, nesciunt
+                    minima itaque amet tempora commodi quidem dolorem voluptatem iusto illum, reiciendis non corporis
+                    velit consequatur autem.</p>
+            </div>
+        </div>
+        <form action="submit">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+
+            <label for="email">Email address</label>
+            <input type="email" id="email">
+
+            <textarea name="Comment" placeholder="Comment" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Post Comment" id="submitComment">
+        </form>
+    </div>
+</section>
 <footer>
     <p>Copyright &copy; 2019 HackerYou</p>
 </footer>
