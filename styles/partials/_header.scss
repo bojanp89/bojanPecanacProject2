@@ -20,12 +20,13 @@ header {
         flex-direction: column;
         align-items: center;
         margin: 0 auto;
-        width: 448px;
+        width: 410px;
     }
     h1 {
         color: #ff8327;
         font-family: 'Tulpen One', cursive;
         font-size: 13rem;
+        font-weight: 400;
         letter-spacing: 2.4px;
         margin: 0;
         padding: 0;
@@ -34,6 +35,7 @@ header {
     h2 {
         @include hFontSize(4.16rem, 0, 2.6px, $primaryColor);
         margin: 0;
+        font-weight: 400;
         margin-left: 10px;
         padding: 0;
         align-self: flex-start;

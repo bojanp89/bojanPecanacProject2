@@ -1,5 +1,6 @@
 $primaryColor: #ffffff;
 $secondaryColor: #ff8327;
+$secondaryFont: Tulpen One, cursive;
 
 @mixin hFontSize($fontSize, $lineHeight, $letterSpacing, $fontColor) {
   font-size: $fontSize;

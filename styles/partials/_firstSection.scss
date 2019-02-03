@@ -15,6 +15,7 @@
     }
     h3 {
         @include hFontSize(3.4rem, 2.9rem, 2.2px, $primaryColor);
+        font-weight: 400;
         margin-top: 5px;
         margin-bottom: 0;
     }
