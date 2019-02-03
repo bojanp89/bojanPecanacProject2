@@ -1,21 +1,41 @@
 header {
     background: url(../assets/homeImage.jpg) center no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 60vh;
     position: relative;
+    // display: flex;
     .headerBox {
         max-width: 50%;
         position: absolute;
         right: 0;
-        top: 300px;
+        bottom: -20%;
+    }
+    .headerText {
+        position: absolute;
+        bottom: 15%;
+        left: 0;
+        right: 0;
+        display: flex;
+        // border: 1px solid yellow;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 448px;
     }
     h1 {
         color: #ff8327;
         font-family: 'Tulpen One', cursive;
         font-size: 13rem;
-        text-align: center;
         letter-spacing: 2.4px;
-        z-index: 9;
-        position: absolute;
+        margin: 0;
+        padding: 0;
+        line-height: 11.5rem;
+    }
+    h2 {
+        @include hFontSize(4.16rem, 0, 2.6px, $primaryColor);
+        margin: 0;
+        margin-left: 10px;
+        padding: 0;
+        align-self: flex-start;
     }
 }

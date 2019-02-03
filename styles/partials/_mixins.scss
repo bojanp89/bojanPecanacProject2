@@ -1,3 +1,6 @@
+$primaryColor: #ffffff;
+$secondaryColor: #ff8327;
+
 @mixin hFontSize($fontSize, $lineHeight, $letterSpacing, $fontColor) {
   font-size: $fontSize;
   line-height: $lineHeight;

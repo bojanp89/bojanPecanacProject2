@@ -1,30 +1,40 @@
 .firstSection {
     padding-top: 250px;
+    padding-bottom: 175px;
     .wrapper {
         display: flex;
         flex-wrap: wrap;
     .content {
+        // border: 1px solid yellow;
         width: 50%;
         display: flex;
         // flex-wrap: wrap;
     }
     .text {
+        margin-left: 3%;
     }
     h3 {
-        @include hFontSize(3.4rem, 2.9rem, 2.2px, #ffffff);
+        @include hFontSize(3.4rem, 2.9rem, 2.2px, $primaryColor);
+        margin-top: 5px;
         margin-bottom: 0;
     }
     p {
-       margin-top: 15px; 
+       margin-top: 10px; 
     }
     i {
-        color: #ffffff;
+        color: $primaryColor;
         font-size: 1.8rem;
         background: #bf2603;
-        // border-radius: 50%;
+        border-radius: 50%;
         border: 15px solid #bf2603;
-        align-self: flex-start;
+        // align-self: flex-start;
     }
+    .fa-file {
+        padding: 0 7px;
     }
+    .fa-phone {
+        padding: 0 4px;
+    }
+}
 }
 

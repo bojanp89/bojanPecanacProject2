@@ -189,24 +189,54 @@ nav {
 header {
   background: url(../assets/homeImage.jpg) center no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: 60vh;
   position: relative; }
   header .headerBox {
     max-width: 50%;
     position: absolute;
     right: 0;
-    top: 300px; }
+    bottom: -20%; }
+  header .headerText {
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 448px; }
   header h1 {
     color: #ff8327;
     font-family: 'Tulpen One', cursive;
     font-size: 13rem;
-    text-align: center;
     letter-spacing: 2.4px;
-    z-index: 9;
-    position: absolute; }
+    margin: 0;
+    padding: 0;
+    line-height: 11.5rem; }
+  header h2 {
+    font-size: 4.16rem;
+    line-height: 0;
+    letter-spacing: 2.6px;
+    color: #ffffff;
+    font-family: 'Chathura', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    -ms-flex-item-align: start;
+    align-self: flex-start; }
 
 .firstSection {
-  padding-top: 250px; }
+  padding-top: 250px;
+  padding-bottom: 175px; }
   .firstSection .wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -218,6 +248,8 @@ header {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
+    .firstSection .wrapper .text {
+      margin-left: 3%; }
     .firstSection .wrapper h3 {
       font-size: 3.4rem;
       line-height: 2.9rem;
@@ -225,15 +257,22 @@ header {
       color: #ffffff;
       font-family: 'Chathura', sans-serif;
       font-weight: 700;
+      margin-top: 5px;
       margin-bottom: 0; }
     .firstSection .wrapper p {
-      margin-top: 15px; }
+      margin-top: 10px; }
     .firstSection .wrapper i {
       color: #ffffff;
       font-size: 1.8rem;
       background: #bf2603;
-      border: 15px solid #bf2603;
-      -ms-flex-item-align: start;
-      align-self: flex-start; }
+      border-radius: 50%;
+      border: 15px solid #bf2603; }
+    .firstSection .wrapper .fa-file {
+      padding: 0 7px; }
+    .firstSection .wrapper .fa-phone {
+      padding: 0 4px; }
+
+.secondSection {
+  background: #220303; }
 
 /*# sourceMappingURL=style.css.map */
