@@ -338,4 +338,107 @@ header {
     font-size: 1.7rem;
     letter-spacing: 3px; }
 
+.thirdSection .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  padding: 150px 0; }
+
+.thirdSection h3 {
+  font-size: 3.4rem;
+  line-height: 2.9rem;
+  letter-spacing: 2.2px;
+  color: #ff8327;
+  font-family: 'Chathura', sans-serif;
+  font-weight: 700;
+  font-weight: 400;
+  margin: 0; }
+
+.thirdSection a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Tulpen One, cursive;
+  background: #bf2603;
+  padding: 5px 30px;
+  font-size: 1.7rem;
+  letter-spacing: 3px;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center; }
+
+figure {
+  background: url(../assets/bannerImage.jpg) center right no-repeat;
+  background-size: cover;
+  height: 500px; }
+
+.events .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 150px 0;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.events .smallBox {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 7%; }
+
+.events h3 {
+  font-size: 3.4rem;
+  line-height: 1.5rem;
+  letter-spacing: 2.2px;
+  color: #ff8327;
+  font-family: 'Chathura', sans-serif;
+  font-weight: 700;
+  font-weight: 400;
+  margin: 0; }
+
+.events p {
+  margin: 20px 0 40px; }
+
+.events a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Tulpen One, cursive;
+  background: #bf2603;
+  padding: 5px 30px;
+  font-size: 1.7rem;
+  letter-spacing: 3px;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center; }
+
+.gallery {
+  background: #220303; }
+  .gallery .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 100px 0; }
+  .gallery .img {
+    margin: 0 2%; }
+  .gallery .img:nth-of-type(1) {
+    margin-left: 0; }
+  .gallery .img:nth-of-type(3) {
+    margin-right: 0; }
+
+footer {
+  background: #2c2c2c; }
+  footer p {
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+
 /*# sourceMappingURL=style.css.map */
