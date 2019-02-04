@@ -1,40 +1,38 @@
 .secondSection {
-    position: relative;
     background: #220303;
-    height: 850px;
-    .containerLeft {
-        position: absolute;
+    display: flex;
+    justify-content: space-between;
+    // height: 800px;
+    .container {
         display: flex;
         flex-direction: column;
-        top: -30px;
+        max-width: 45%;
     }
-    .containerRight {
-        display: flex;
-        flex-direction: column-reverse;
-        position: absolute;
-        bottom: -30px;
-        right: 0;
+    .containerLeft {
+        transform: translate(0px, -15px);
     }
     .text {
-        width: 90%;
-        max-width: 670px;
-    }
-    .imgLeft {
-        box-shadow: 20px 20px 0px 0px $secondaryColor;
-    }
-    .imgRight {
-        box-shadow: -20px 20px 0px 0px $secondaryColor;
-    }
-    .rightText {
-        // padding: 0 0 100px;
-        margin: 0 0 75px;
+        max-width: 80%;
     }
     .leftText {
         text-align: right;
         align-self: flex-end;
-        margin-top: 80px;
+        margin-top: 95px;
     }
-    
+    .rightText {
+        margin-bottom: 90px;
+    }
+    .containerRight {
+        margin-top: 3%;
+        flex-direction: column-reverse;
+        transform: translate(0px, 35px);
+    }
+    .imgLeft {
+        box-shadow: 15px 15px 0px 0px $secondaryColor;
+    }
+    .imgRight {
+        box-shadow: -15px 15px 0px 0px $secondaryColor;
+    }
     h3 {
         @include hFontSize(3.4rem, 2.9rem, 2.2px, $primaryColor);
         font-weight: 400;
