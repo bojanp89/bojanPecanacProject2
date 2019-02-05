@@ -23,8 +23,17 @@ p {
     font-weight: 100;
 }
 
+footer {
+    background: #2c2c2c;
+    p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        line-height: inherit;
+    }
+}
+
 nav a:hover {
-    color: $secondaryColor;
 }
 
 

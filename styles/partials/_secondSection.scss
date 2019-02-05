@@ -1,12 +1,14 @@
 .secondSection {
-    background: #220303;
+background: #220303;
+.wrapper {
     display: flex;
     justify-content: space-between;
     // height: 800px;
     .container {
         display: flex;
         flex-direction: column;
-        max-width: 45%;
+        width: 45%;
+        max-width: 670px;
     }
     .containerLeft {
         transform: translate(0px, -15px);
@@ -51,4 +53,5 @@
         font-size: 1.7rem;
         letter-spacing: 3px;
     }
+}
 }

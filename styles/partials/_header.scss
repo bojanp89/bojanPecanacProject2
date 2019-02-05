@@ -1,14 +1,19 @@
 header {
     background: url(../assets/homeImage.jpg) center no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 550px;
     position: relative;
-    // display: flex;
+    // max-width: 1600px;
+    // margin: 0 auto;
+    .container {
+        max-width: 1600px;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 auto;
+    }
     .headerBox {
         max-width: 50%;
-        position: absolute;
-        right: 0;
-        top: 30%;
+        margin-top: 7%;
     }
     .headerText {
         position: absolute;
@@ -20,7 +25,8 @@ header {
         flex-direction: column;
         align-items: center;
         margin: 0 auto;
-        width: 410px;
+        width: 415px;
+        z-index: 10;
     }
     h1 {
         color: #ff8327;

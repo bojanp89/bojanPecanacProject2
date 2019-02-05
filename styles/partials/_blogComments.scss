@@ -1,0 +1,91 @@
+section.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 1600px;
+    margin: 0 auto;
+    .commentContainer {
+        width: 55%;
+        min-width: 600px;
+        padding-right: 50px;
+    }
+    h3 {
+        @include hFontSize(3.4rem, 0rem, 2.2px, $primaryColor);
+        font-weight: 400;
+    }
+    .singleComment {
+        display: flex;
+    }
+    .singleComment:nth-of-type(1) {
+        margin-bottom: 100px
+    }
+    .userImg {
+        flex-shrink: 0;
+        margin-right: 5%;
+    }
+    h4 {
+        @include hFontSize(2.5rem, 1.5rem, 2.2px, $secondaryColor);
+        font-weight: 400;
+        margin: 0;
+    }
+    p {
+        margin: 15px 0 0;
+        line-height: 1.5rem;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.95rem;
+        font-family: 'Chathura', sans-serif;
+        font-weight: 100;
+        margin-top: 100px;
+        .name, .email {
+            background: none;
+            color: $primaryColor;
+            letter-spacing: 2.5px;
+            border: none;
+            border-bottom: 2px solid $secondaryColor;
+            max-width: 47%;
+            padding: 0 0 0px 35px;
+            font-weight: 100;
+        }
+        textarea {
+            background: none;
+            color: $primaryColor;
+            letter-spacing: 2.5px;
+            border: 2px solid $secondaryColor;
+            margin: 30px 0;
+            line-height: 1.5rem;
+            padding: 35px 0 0px 30px;
+            font-weight: 100;
+        }
+        input::placeholder, textarea::placeholder {
+            color: $primaryColor;
+            opacity: 1;
+            font-weight: 100;
+        }
+        .formGroup {
+            display: flex;
+            justify-content: space-between;
+        }
+        .name {
+            width:50%;
+            background: none;
+        }
+        .email {
+            width: 50%;
+        }
+        .submit {
+            background: #bf2603;
+            border: none;
+            font-family: 'Tulpen One', cursive;
+            color: $primaryColor;
+            font-weight: 400;
+            letter-spacing: 2px;
+            font-size: 1.7rem;
+            padding: 5px 0;
+            margin: 0px 0 100px;
+        }
+    }
+
+}
