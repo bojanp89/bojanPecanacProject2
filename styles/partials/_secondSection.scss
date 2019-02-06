@@ -1,33 +1,34 @@
 .secondSection {
 background: #220303;
-.wrapper {
+.container {
     display: flex;
     justify-content: space-between;
-    // height: 800px;
-    .container {
+    max-width: 1600px;
+    margin: 0 auto;
+    .contentContainer {
         display: flex;
         flex-direction: column;
-        width: 45%;
+        justify-content: space-between;
+        width: 47%;
         max-width: 670px;
     }
     .containerLeft {
         transform: translate(0px, -15px);
     }
-    .text {
-        max-width: 80%;
-    }
     .leftText {
         text-align: right;
-        align-self: flex-end;
-        margin-top: 95px;
+        margin: 10% 0 3% 3%;
     }
     .rightText {
-        margin-bottom: 90px;
+        margin-right: 3%;
+        margin-bottom: 10%;
     }
     .containerRight {
-        margin-top: 3%;
         flex-direction: column-reverse;
-        transform: translate(0px, 35px);
+        transform: translate(0px, 5%);
+    }
+    .img {
+        flex-shrink: 1;
     }
     .imgLeft {
         box-shadow: 15px 15px 0px 0px $secondaryColor;
@@ -41,7 +42,7 @@ background: #220303;
         margin: 0;
     }
     p {
-        margin: 10px 0 30px;
+        margin: 1% 0 4%;
     }
     a {
         text-decoration: none;

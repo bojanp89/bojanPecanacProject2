@@ -5,7 +5,7 @@ section.comments {
     max-width: 1600px;
     margin: 0 auto;
     .commentContainer {
-        width: 55%;
+        width: 57%;
         min-width: 600px;
         padding-right: 50px;
     }
@@ -42,22 +42,23 @@ section.comments {
         .name, .email {
             background: none;
             color: $primaryColor;
-            letter-spacing: 2.5px;
+            letter-spacing: 2px;
             border: none;
             border-bottom: 2px solid $secondaryColor;
             max-width: 47%;
-            padding: 0 0 0px 35px;
+            padding: 0 0 0px 3%;
             font-weight: 100;
         }
         textarea {
             background: none;
             color: $primaryColor;
-            letter-spacing: 2.5px;
+            letter-spacing: 2px;
             border: 2px solid $secondaryColor;
             margin: 30px 0;
             line-height: 1.5rem;
-            padding: 35px 0 0px 30px;
+            padding: 4% 0 0px 3%;
             font-weight: 100;
+            resize: none;
         }
         input::placeholder, textarea::placeholder {
             color: $primaryColor;

@@ -34,27 +34,28 @@ main.contact .wrapper {
         font-weight: 100;
         background: #220303;
         padding: 70px 60px 60px;
-        // margin: 0 70px 0;
         transform: translate(0, -150px);
         box-shadow: 20px 20px 0px 0px $secondaryColor;
         .name, .email {
             background: none;
             color: $primaryColor;
-            letter-spacing: 2.5px;
+            letter-spacing: 2px;
             border: none;
             border-bottom: 2px solid $primaryColor;
             max-width: 48%;
             padding: 0 0 10px 25px;
+            font-weight: 100;
         }
         textarea {
             background: none;
             color: $primaryColor;
-            letter-spacing: 2.5px;
+            letter-spacing: 2px;
             border: 2px solid $primaryColor;
             margin: 50px 0;
             line-height: 1.5rem;
             padding: 35px 0 0px 20px;
             font-weight: 100;
+            resize: none;
         }
         input::placeholder, textarea::placeholder {
             color: $primaryColor;
@@ -64,13 +65,6 @@ main.contact .wrapper {
         .formGroup {
             display: flex;
             justify-content: space-between;
-        }
-        .name {
-            width:50%;
-            background: none;
-        }
-        .email {
-            width: 50%;
         }
         .submit {
             background: #bf2603;

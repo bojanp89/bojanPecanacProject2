@@ -1,0 +1,40 @@
+@media (max-width: 1340px) {
+    main.contact .wrapper form {
+        .formGroup {
+            display: flex;
+            flex-direction: column;
+        }
+        .name, .email {
+            max-width: 100%;
+        }
+        .name {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    main.contact .wrapper {
+        flex-direction: column;
+        form {
+            width: 100%;
+        }
+        aside {
+            width:100%;
+            margin-top: 0;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    main.contact .wrapper form {
+        box-shadow: 10px 10px 0px 0px $secondaryColor;
+        padding: 5%;
+        .name, .email {
+            border-bottom: 1px solid $primaryColor;
+        }
+        textarea {
+            border: 1px solid $primaryColor;
+        }
+    }
+}

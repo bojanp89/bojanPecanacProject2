@@ -1,0 +1,12 @@
+@media (max-width:1006px) {
+    main.blog {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        aside {
+            align-self: flex-start;
+        }
+        .blogSection {
+            width: 90%;
+        }
+    }
+}
