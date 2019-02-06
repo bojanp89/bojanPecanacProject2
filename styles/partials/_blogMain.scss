@@ -4,8 +4,6 @@ header.blog {
     height: 550px;
     .headerContainer {
         max-width: 1600px;
-        // display: flex;
-        // justify-content: flex-end;
         margin: 0 auto;
     }
     h2 {
@@ -13,17 +11,6 @@ header.blog {
         font-size: 5.5rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 main.blog {
     display: flex;
@@ -44,7 +31,6 @@ main.blog {
         transform: translateY(-20px)
         }
         .sidebarText {
-            // margin-top: 30px;
             margin-left: 10%;
             padding: 0px 30px 30px;
             background: #220303;

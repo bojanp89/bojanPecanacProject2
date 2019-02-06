@@ -33,11 +33,73 @@ footer {
     }
 }
 
-nav a:hover {
+header .wrapper nav a:hover {
+    border-bottom: 1px solid $secondaryColor;
 }
 
+section.firstSection {
+    i {
+        transition: all 0.3s;
+    }
+    i:hover {
+        color: #111010;
+    }
+}
 
-    // font-family: 'Chathura', sans-serif;
+section.secondSection {
+    a {
+        transition: all 0.3s;
+    }
+    a:hover {
+        box-shadow: -5px 5px 0px 0px $secondaryColor;
+    }
+}
 
-    // font-family: 'Tulpen One', cursive;
+section.thirdSection {
+    a {
+        transition: all 0.3s;
+    }
+    a:hover {
+        box-shadow: -5px 5px 0px 0px $secondaryColor;
+    }
+}
 
+section.events {
+    a {
+        transition: all 0.3s;
+    }
+    a:hover {
+        box-shadow: -5px 5px 0px 0px $secondaryColor;
+        
+    }
+}
+
+main.blog aside a:hover {
+    border-bottom: 1px solid $secondaryColor;
+}
+
+.submit {
+    transition: all 0.3s;
+}
+
+.submit:hover {
+    box-shadow: 5px 5px 0px 0px $secondaryColor;
+}
+
+main.contact .wrapper {
+    a {
+        transition: all 0.3s;
+    }
+    a:hover {
+        color: $secondaryColor;
+    }
+}
+
+main.contact .wrapper .contactInfo {
+    a {
+        transition: all 0.3s;
+    }
+    a:hover {
+        color: $secondaryColor;
+    }
+}

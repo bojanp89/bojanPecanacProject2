@@ -24,6 +24,27 @@
             margin-top: 0;
         }
     }
+    main.contact {
+        margin-bottom: 100px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    header.contact h2 {
+        margin: 50px 0 0 0;
+        text-align: right;
+        line-height: 3rem;
+    }
+    main.contact .wrapper aside ul {
+        align-self: center;
+        justify-content: center;
+        // padding: 0;
+        margin: 0;
+    }
+    .contactInfo {
+        text-align: center;
+    }
 }
 
 @media (max-width: 550px) {
