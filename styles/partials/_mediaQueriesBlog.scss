@@ -3,10 +3,52 @@
         flex-direction: column-reverse;
         align-items: flex-end;
         aside {
-            align-self: flex-start;
+            align-self: center;
         }
         .blogSection {
             width: 90%;
         }
     }
+    main.blog aside {
+        align-self: center;
+        margin-bottom: 100px;
+    }
+    section.comments {
+    .commentContainer {
+        width: 80%;
+        min-width: 0;
+        padding-right: 0px;
+        align-self: center;
+    }
+}
+}
+
+@media (max-width: 600px) {
+    header.blog {
+        h2 {
+            text-align: right;
+            margin-right: 20px;
+        }
+    }
+    section.comments {
+        .singleComment {
+            flex-direction: column;
+        }
+        .userImg {
+            margin: 0 0 2%;
+        }
+    }
+    section.comments form {
+        .formGroup {
+            flex-direction: column;
+        }
+        .name, .email {
+            max-width: 100%;
+        }
+        .name {
+            margin-bottom: 30px;
+        }
+    }
+
+    
 }

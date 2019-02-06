@@ -3,13 +3,18 @@ header {
     background-size: cover;
     height: 550px;
     position: relative;
+    label {
+        color: $primaryColor;
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
     .container {
         max-width: 1600px;
         display: flex;
         justify-content: flex-end;
         margin: 0 auto;
     }
-    .headerBox {
+    .headerImg {
         max-width: 50%;
         margin-top: 7%;
     }
